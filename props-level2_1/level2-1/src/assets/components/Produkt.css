@@ -1,0 +1,23 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.products img {
+  width: 100%;
+}
+
+.products {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.products button {
+  background-color: crimson;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
